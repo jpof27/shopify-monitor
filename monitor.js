@@ -64,9 +64,10 @@ var endingSites = [
 
 var uptime = convertSecondsToMinutesAndSeconds(process.uptime())
 var uptimeFormatted = uptime[0] + ' minutes'
-
-app.listen(configuration.serverPort)
-app.set('port', configuration.serverPort)
+var port = process.env.PORT || CONFIG.port;
+// when on Heroku, port will be exported to an environment variable
+// and available as process.env.PORT
+app.listen(port);
 api.log('success', `Local server started on port ${configuration.serverPort}`)
 
 app.get('/', function(req, res) {
