@@ -18,7 +18,7 @@
         }
     },
     "twitter": {
-        "active": false ,
+        "active": true ,
         "encodeImages": true,
         "consumer_key": "76LrJMCNKzwtdn2tCM3oVlSdu",
         "consumer_secret": "Osc5Ny11qJCLpYbVtIbNo5axZw69Ko6NbPzypD9yMSeOayFPVo",
