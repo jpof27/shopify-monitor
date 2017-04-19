@@ -1,5 +1,5 @@
 {
-    "interval": 80000,
+    "interval": 40000,
     "serverPort": 1337,
     "autoRetryOnCrash": true,
     "noImageURL": "http://i.imgur.com/MdsG0Po.png",
