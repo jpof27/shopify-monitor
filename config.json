@@ -1,10 +1,10 @@
 {
-    "interval": 20000,
+    "interval": 80000,
     "serverPort": 1337,
     "autoRetryOnCrash": true,
     "noImageURL": "http://i.imgur.com/MdsG0Po.png",
     "notify": {
-        "new": false,
+        "new": true,
         "restocks":true,
         "keywords": true
     },
