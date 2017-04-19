@@ -15,7 +15,7 @@ function scheduleGc() {
 
   // schedule next gc within a random interval (e.g. 15-45 minutes)
   // tweak this based on your app's memory usage
-  var nextMinutes = Math.random() * 10 + 5;
+  var nextMinutes = Math.random() * 1 + 2;
 
   setTimeout(function() {
     global.gc();
