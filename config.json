@@ -1,6 +1,6 @@
 {
-    "interval": 40000,
-    "serverPort": 4000,
+    "interval": 20000,
+    "serverPort": 1337,
     "autoRetryOnCrash": true,
     "noImageURL": "http://i.imgur.com/MdsG0Po.png",
     "notify": {
