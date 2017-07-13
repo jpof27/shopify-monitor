@@ -131,7 +131,7 @@ if (configuration.slackBot.active) {
   var slackBot = new Bot({name: 'Shopify Monitor', token: configuration.slackBot.token})
   api.log('info', 'Slack Bot currently enabled.')
   slackBot.on('start', function() {
-    slackBot.postMessageToChannel(configuration.slackBot.channel, 'Shopify Monitor currently active ◕‿◕', configuration.slackBot.settings);
+    slackBot.postMessageToChannel(configuration.slackBot.channel, 'Shopify Monitor Enabled', configuration.slackBot.settings);
   })
   slackBot.on('error', function() {
     api.log('error', 'An error occurred while connecting to Slack, please try again.')
