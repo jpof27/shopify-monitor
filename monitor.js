@@ -64,7 +64,7 @@ var endingSites = [
 
 var uptime = convertSecondsToMinutesAndSeconds(process.uptime())
 var uptimeFormatted = uptime[0] + ' minutes'
-var port = process.env.PORT || CONFIG.port;
+var port = process.env.PORT 
 // when on Heroku, port will be exported to an environment variable
 // and available as process.env.PORT
 app.listen(port);
